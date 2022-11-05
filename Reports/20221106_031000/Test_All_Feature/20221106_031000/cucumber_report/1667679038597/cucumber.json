@@ -1,0 +1,138 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1803406300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open browser login",
+            "match": {
+              "location": "AuthSteps.openLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2153020500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I fill correct email \u003cemail\u003e and password \u003cpassword\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cemail\u003e",
+                  "offset": 21
+                },
+                {
+                  "val": "\u003cpassword\u003e",
+                  "offset": 42
+                }
+              ],
+              "location": "AuthSteps.correctLogin(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 428494000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click button login",
+            "match": {
+              "location": "AuthSteps.clicklogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 691039000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can login",
+            "match": {
+              "location": "AuthSteps.sucLogin()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "User buy items - without login",
+        "description": "",
+        "id": "buy-items;user-buy-items---without-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2423978900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User in homepage",
+            "match": {
+              "location": "HomepageSteps.homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1450600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User select product",
+            "match": {
+              "location": "HomepageSteps.selectProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3668268400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click button Beli",
+            "match": {
+              "location": "HomepageSteps.clickButtonBeli()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1049600500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click icon Keranjang to see product",
+            "match": {
+              "location": "HomepageSteps.clickKeranjang()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Buy Items",
+    "description": "",
+    "id": "buy-items",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-WEB-UI-/Include/features/BuyItems.feature",
+    "tags": []
+  }
+]

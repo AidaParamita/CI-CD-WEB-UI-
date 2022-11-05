@@ -1,0 +1,157 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "User create new account - with fill all field",
+        "description": "",
+        "id": "register;user-create-new-account---with-fill-all-field;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7414096900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open browser regis",
+            "match": {
+              "location": "AuthSteps.openRegis()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2638478400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I fill correct fullname Taylor4 and email taylor4@gmail.com and password taylor4aja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Taylor4",
+                  "offset": 24
+                },
+                {
+                  "val": "taylor4@gmail.com",
+                  "offset": 42
+                },
+                {
+                  "val": "taylor4aja",
+                  "offset": 73
+                }
+              ],
+              "location": "AuthSteps.correctRegis(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2963211100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click button register",
+            "match": {
+              "location": "AuthSteps.clickRegis()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1833380500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can register",
+            "match": {
+              "location": "AuthSteps.sucRegis()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "User create new account - with fill all field",
+        "description": "",
+        "id": "register;user-create-new-account---with-fill-all-field;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1685597000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open browser regis",
+            "match": {
+              "location": "AuthSteps.openRegis()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2574468600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I fill correct fullname  and email bagus3@gmail.com and password bagus3aja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 24
+                },
+                {
+                  "val": "bagus3@gmail.com",
+                  "offset": 35
+                },
+                {
+                  "val": "bagus3aja",
+                  "offset": 65
+                }
+              ],
+              "location": "AuthSteps.correctRegis(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2269584800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click button register",
+            "match": {
+              "location": "AuthSteps.clickRegis()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1738271600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can register",
+            "match": {
+              "location": "AuthSteps.sucRegis()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-WEB-UI-/Include/features/Register.feature",
+    "tags": []
+  }
+]

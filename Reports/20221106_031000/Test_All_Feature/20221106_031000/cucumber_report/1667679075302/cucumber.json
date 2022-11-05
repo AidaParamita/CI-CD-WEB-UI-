@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Pay the Items - without login",
+        "description": "",
+        "id": "pay-the-items;pay-the-items---without-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2260419700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User in homepage",
+            "match": {
+              "location": "HomepageSteps.homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 514800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User select product",
+            "match": {
+              "location": "HomepageSteps.selectProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3717006000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click button Beli",
+            "match": {
+              "location": "HomepageSteps.clickButtonBeli()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1078773400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click icon Keranjang to see product",
+            "match": {
+              "location": "HomepageSteps.clickKeranjang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 532359800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click button Bayar",
+            "match": {
+              "location": "ShoppingCartSteps.clickButtonBayar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1916313100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user go to login page",
+            "match": {
+              "location": "ShoppingCartSteps.goLoginItems()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Pay The Items",
+    "description": "",
+    "id": "pay-the-items",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-WEB-UI-/Include/features/PayTheItems.feature",
+    "tags": []
+  }
+]

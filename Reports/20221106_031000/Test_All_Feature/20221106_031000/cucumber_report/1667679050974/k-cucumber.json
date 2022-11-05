@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "b6ed5b5b-c7fb-4e18-99f3-2516c665f273",
+        "line": 12,
+        "name": "Add items - without login",
+        "description": "",
+        "id": "add-items;add-items---without-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4094954200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User in homepage",
+            "match": {
+              "location": "HomepageSteps.homepage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "4f3a3627-10be-498c-9cfe-50910b682137"
+          },
+          {
+            "result": {
+              "duration": 1009400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User select product",
+            "match": {
+              "location": "HomepageSteps.selectProduct()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "686ff269-554f-4503-8cf4-2a199b784cb2"
+          },
+          {
+            "result": {
+              "duration": 5197315400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click button Beli",
+            "match": {
+              "location": "HomepageSteps.clickButtonBeli()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "0575c565-9151-4d4a-8580-d92190661054"
+          },
+          {
+            "result": {
+              "duration": 1658455200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click icon Keranjang to see product",
+            "match": {
+              "location": "HomepageSteps.clickKeranjang()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d4b8e510-ba88-45b3-9e98-d6a679be619b"
+          },
+          {
+            "result": {
+              "duration": 2148872800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can add items",
+            "match": {
+              "location": "ShoppingCartSteps.addItems()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "9c1d065d-bf45-4a92-85f6-27ac23b293cd"
+          }
+        ]
+      }
+    ],
+    "name": "Add Items",
+    "description": "",
+    "id": "add-items",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-WEB-UI-/Include/features/AddItems.feature",
+    "tags": []
+  }
+]

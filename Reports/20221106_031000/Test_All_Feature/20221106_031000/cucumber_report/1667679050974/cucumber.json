@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Add items - without login",
+        "description": "",
+        "id": "add-items;add-items---without-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4094954200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User in homepage",
+            "match": {
+              "location": "HomepageSteps.homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1009400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User select product",
+            "match": {
+              "location": "HomepageSteps.selectProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5197315400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click button Beli",
+            "match": {
+              "location": "HomepageSteps.clickButtonBeli()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1658455200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click icon Keranjang to see product",
+            "match": {
+              "location": "HomepageSteps.clickKeranjang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2148872800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can add items",
+            "match": {
+              "location": "ShoppingCartSteps.addItems()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add Items",
+    "description": "",
+    "id": "add-items",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-WEB-UI-/Include/features/AddItems.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "b70e5808-0946-4f25-bcf5-107f80cebf5a",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1803406300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open browser login",
+            "match": {
+              "location": "AuthSteps.openLogin()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "9537635c-91fe-41f6-87a6-37088d9585e8"
+          },
+          {
+            "result": {
+              "duration": 2153020500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I fill correct email \u003cemail\u003e and password \u003cpassword\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cemail\u003e",
+                  "offset": 21
+                },
+                {
+                  "val": "\u003cpassword\u003e",
+                  "offset": 42
+                }
+              ],
+              "location": "AuthSteps.correctLogin(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "76b9a7ed-7a20-443d-9ed9-780fab8c26b2"
+          },
+          {
+            "result": {
+              "duration": 428494000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click button login",
+            "match": {
+              "location": "AuthSteps.clicklogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a23b1b82-3d2d-4894-96af-27782b249590"
+          },
+          {
+            "result": {
+              "duration": 691039000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can login",
+            "match": {
+              "location": "AuthSteps.sucLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a22aa64f-3099-4516-b729-d3842bcb1672"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "b70e5808-0946-4f25-bcf5-107f80cebf5a",
+        "line": 17,
+        "name": "User buy items - without login",
+        "description": "",
+        "id": "buy-items;user-buy-items---without-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2423978900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User in homepage",
+            "match": {
+              "location": "HomepageSteps.homepage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "58381698-fc33-4448-8b04-9f0baa0c0ae3"
+          },
+          {
+            "result": {
+              "duration": 1450600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User select product",
+            "match": {
+              "location": "HomepageSteps.selectProduct()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e96bc649-da20-4525-ab00-6f6964729229"
+          },
+          {
+            "result": {
+              "duration": 3668268400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click button Beli",
+            "match": {
+              "location": "HomepageSteps.clickButtonBeli()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "5068a473-3d00-4442-94e9-c366a7039e73"
+          },
+          {
+            "result": {
+              "duration": 1049600500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click icon Keranjang to see product",
+            "match": {
+              "location": "HomepageSteps.clickKeranjang()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "8befdfd4-8e55-41c5-91a4-1c253dfd0ef0"
+          }
+        ]
+      }
+    ],
+    "name": "Buy Items",
+    "description": "",
+    "id": "buy-items",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-WEB-UI-/Include/features/BuyItems.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "4829ca97-1eae-4b3e-87e9-d4e73fdabcf0",
+        "line": 11,
+        "name": "User create new account - with fill all field",
+        "description": "",
+        "id": "register;user-create-new-account---with-fill-all-field;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7414096900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open browser regis",
+            "match": {
+              "location": "AuthSteps.openRegis()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "69dd242c-513d-4d90-becb-ae024920af86"
+          },
+          {
+            "result": {
+              "duration": 2638478400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I fill correct fullname Taylor4 and email taylor4@gmail.com and password taylor4aja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Taylor4",
+                  "offset": 24
+                },
+                {
+                  "val": "taylor4@gmail.com",
+                  "offset": 42
+                },
+                {
+                  "val": "taylor4aja",
+                  "offset": 73
+                }
+              ],
+              "location": "AuthSteps.correctRegis(String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "dd8e9c60-1c6f-4f84-9646-1f9bc633b4a0"
+          },
+          {
+            "result": {
+              "duration": 2963211100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click button register",
+            "match": {
+              "location": "AuthSteps.clickRegis()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a3134ae9-c2ef-48b4-b9a7-a06cd93ea489"
+          },
+          {
+            "result": {
+              "duration": 1833380500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can register",
+            "match": {
+              "location": "AuthSteps.sucRegis()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "686e0c99-9340-4ba0-a2a4-6338a018d66b"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "995f0750-e10b-4d4e-8beb-8a7cc57efc23",
+        "line": 12,
+        "name": "User create new account - with fill all field",
+        "description": "",
+        "id": "register;user-create-new-account---with-fill-all-field;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1685597000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open browser regis",
+            "match": {
+              "location": "AuthSteps.openRegis()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "8b98ec15-62c7-4d09-a258-4141cb24ca8a"
+          },
+          {
+            "result": {
+              "duration": 2574468600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I fill correct fullname  and email bagus3@gmail.com and password bagus3aja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 24
+                },
+                {
+                  "val": "bagus3@gmail.com",
+                  "offset": 35
+                },
+                {
+                  "val": "bagus3aja",
+                  "offset": 65
+                }
+              ],
+              "location": "AuthSteps.correctRegis(String,String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "7a9c8832-396b-478e-83f4-bdd862e65293"
+          },
+          {
+            "result": {
+              "duration": 2269584800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click button register",
+            "match": {
+              "location": "AuthSteps.clickRegis()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "dc420d21-dcce-4f3e-985f-fa4618c9d020"
+          },
+          {
+            "result": {
+              "duration": 1738271600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can register",
+            "match": {
+              "location": "AuthSteps.sucRegis()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "680fc5f6-045b-4253-95ad-c4cee304c87c"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-WEB-UI-/Include/features/Register.feature",
+    "tags": []
+  }
+]

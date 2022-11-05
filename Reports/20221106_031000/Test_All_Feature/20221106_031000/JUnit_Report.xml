@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_All_Feature" time="81.7" tests="1" failures="0" errors="0">
+   <testsuite name="Test_All_Feature" tests="1" failures="0" errors="0" time="81.7" skipped="0" timestamp="2022-11-06 03:10:03" hostname="AIDA - 192.168.56.1" id="Test Suites/Test_All_Feature">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\TUGAS\\Kampus Merdeka\\Clone4\\QE_Aida-Paramita\\31_Mini Project\\praktikum\\CI-CD-WEB-UI-\\Reports\\20221106_031000\\Test_All_Feature\\20221106_031000"/>
+         <property name="logFiles" value="E:\\TUGAS\\Kampus Merdeka\\Clone4\\QE_Aida-Paramita\\31_Mini Project\\praktikum\\CI-CD-WEB-UI-\\Reports\\20221106_031000\\Test_All_Feature\\20221106_031000\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AIDA - 192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="fe1f9b69c0973b9fe7ac7cf40dff0b51"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestAll" time="81.442" classname="Test Cases/TestAll" status="PASSED">
+         <system-out><![CDATA[2022-11-06 03:10:03 - [TEST_CASE][PASSED] - Test Cases/TestAll: Test Cases/TestAll
+
+2022-11-06 03:10:03 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Register.feature"): Feature file: 'Include/features/Register.feature' was passed
+
+2022-11-06 03:10:04 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Register.feature' and extract report to folder: 'E:\TUGAS\Kampus Merdeka\Clone4\QE_Aida-Paramita\31_Mini Project\praktikum\CI-CD-WEB-UI-\Reports\20221106_031000\Test_All_Feature\20221106_031000/cucumber_report/1667679003998'...
+
+2022-11-06 03:10:04 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User create new account - with fill all field: SCENARIO User create new account - with fill all field
+
+2022-11-06 03:10:04 - [TEST_STEP][PASSED] - I open browser regis: I open browser regis
+
+2022-11-06 03:10:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-06 03:10:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-06 03:10:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-06 03:10:12 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/auth/register' successfully
+
+2022-11-06 03:10:12 - [MESSAGE][PASSED] - I open browser regis
+
+2022-11-06 03:10:12 - [TEST_STEP][PASSED] - I fill correct fullname Taylor4 and email taylor4@gmail.com and password taylor4aja: I fill correct fullname Taylor4 and email taylor4@gmail.com and password taylor4aja
+
+2022-11-06 03:10:13 - [MESSAGE][PASSED] - Text 'Taylor4' is set on object 'Object Repository/Auth/Registrasi/Page_frontend-web/input_Nama Lengkap_input-18'
+
+2022-11-06 03:10:14 - [MESSAGE][PASSED] - Text 'taylor4@gmail.com' is set on object 'Object Repository/Auth/Registrasi/Page_frontend-web/input_Email_input-21'
+
+2022-11-06 03:10:14 - [MESSAGE][PASSED] - Text 'taylor4aja' is set on object 'Object Repository/Auth/Registrasi/Page_frontend-web/input_Password_input-24'
+
+2022-11-06 03:10:14 - [MESSAGE][PASSED] - I fill correct fullname Taylor4 and email taylor4@gmail.com and password taylor4aja
+
+2022-11-06 03:10:14 - [TEST_STEP][PASSED] - I click button register: I click button register
+
+2022-11-06 03:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Registrasi/Page_frontend-web/span_Register' is clicked on
+
+2022-11-06 03:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Registrasi/Page_frontend-web/button_Register' is clicked on
+
+2022-11-06 03:10:17 - [MESSAGE][PASSED] - I click button register
+
+2022-11-06 03:10:17 - [TEST_STEP][PASSED] - I can register: I can register
+
+2022-11-06 03:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Registrasi/Page_frontend-web/div_AltaShop0' is clicked on
+
+2022-11-06 03:10:19 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-06 03:10:19 - [MESSAGE][PASSED] - I can register
+
+2022-11-06 03:10:19 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User create new account - with fill all field: SCENARIO User create new account - with fill all field
+
+2022-11-06 03:10:19 - [TEST_STEP][PASSED] - I open browser regis: I open browser regis
+
+2022-11-06 03:10:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-06 03:10:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-06 03:10:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-06 03:10:21 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/auth/register' successfully
+
+2022-11-06 03:10:21 - [MESSAGE][PASSED] - I open browser regis
+
+2022-11-06 03:10:21 - [TEST_STEP][PASSED] - I fill correct fullname  and email bagus3@gmail.com and password bagus3aja: I fill correct fullname  and email bagus3@gmail.com and password bagus3aja
+
+2022-11-06 03:10:22 - [MESSAGE][PASSED] - Text 'Taylor4' is set on object 'Object Repository/Auth/Registrasi/Page_frontend-web/input_Nama Lengkap_input-18'
+
+2022-11-06 03:10:23 - [MESSAGE][PASSED] - Text 'taylor4@gmail.com' is set on object 'Object Repository/Auth/Registrasi/Page_frontend-web/input_Email_input-21'
+
+2022-11-06 03:10:23 - [MESSAGE][PASSED] - Text 'taylor4aja' is set on object 'Object Repository/Auth/Registrasi/Page_frontend-web/input_Password_input-24'
+
+2022-11-06 03:10:23 - [MESSAGE][PASSED] - I fill correct fullname  and email bagus3@gmail.com and password bagus3aja
+
+2022-11-06 03:10:23 - [TEST_STEP][PASSED] - I click button register: I click button register
+
+2022-11-06 03:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Registrasi/Page_frontend-web/span_Register' is clicked on
+
+2022-11-06 03:10:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Registrasi/Page_frontend-web/button_Register' is clicked on
+
+2022-11-06 03:10:26 - [MESSAGE][PASSED] - I click button register
+
+2022-11-06 03:10:26 - [TEST_STEP][PASSED] - I can register: I can register
+
+2022-11-06 03:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Registrasi/Page_frontend-web/div_AltaShop0' is clicked on
+
+2022-11-06 03:10:27 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-06 03:10:27 - [MESSAGE][PASSED] - I can register
+
+2022-11-06 03:10:28 - [MESSAGE][PASSED] - Feature file: 'Include/features/Register.feature' was passed
+
+2022-11-06 03:10:28 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Login.feature"): Feature file: 'Include/features/Login.feature' was passed
+
+2022-11-06 03:10:28 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login.feature' and extract report to folder: 'E:\TUGAS\Kampus Merdeka\Clone4\QE_Aida-Paramita\31_Mini Project\praktikum\CI-CD-WEB-UI-\Reports\20221106_031000\Test_All_Feature\20221106_031000/cucumber_report/1667679028103'...
+
+2022-11-06 03:10:28 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User log in into website using existing acount: SCENARIO User log in into website using existing acount
+
+2022-11-06 03:10:28 - [TEST_STEP][PASSED] - I open browser login: I open browser login
+
+2022-11-06 03:10:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-06 03:10:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-06 03:10:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-06 03:10:30 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/auth/login' successfully
+
+2022-11-06 03:10:30 - [MESSAGE][PASSED] - I open browser login
+
+2022-11-06 03:10:30 - [TEST_STEP][PASSED] - I fill correct email olaf@gmail.com and password olafaja: I fill correct email olaf@gmail.com and password olafaja
+
+2022-11-06 03:10:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Login/Page_frontend-web/div_AltaShop0' is clicked on
+
+2022-11-06 03:10:31 - [MESSAGE][PASSED] - Text 'olaf@gmail.com' is set on object 'Object Repository/Auth/Login/Page_frontend-web/input_Email_input-18'
+
+2022-11-06 03:10:32 - [MESSAGE][PASSED] - Text 'olafaja' is set on object 'Object Repository/Auth/Login/Page_frontend-web/input_Password_input-21'
+
+2022-11-06 03:10:32 - [MESSAGE][PASSED] - I fill correct email olaf@gmail.com and password olafaja
+
+2022-11-06 03:10:32 - [TEST_STEP][PASSED] - I click button login: I click button login
+
+2022-11-06 03:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Login/Page_frontend-web/btn_lgn' is clicked on
+
+2022-11-06 03:10:32 - [MESSAGE][PASSED] - I click button login
+
+2022-11-06 03:10:32 - [TEST_STEP][PASSED] - I can login: I can login
+
+2022-11-06 03:10:33 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-06 03:10:33 - [MESSAGE][PASSED] - I can login
+
+2022-11-06 03:10:33 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User log in into website using existing acount: SCENARIO User log in into website using existing acount
+
+2022-11-06 03:10:33 - [TEST_STEP][PASSED] - I open browser login: I open browser login
+
+2022-11-06 03:10:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-06 03:10:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-06 03:10:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-06 03:10:35 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/auth/login' successfully
+
+2022-11-06 03:10:35 - [MESSAGE][PASSED] - I open browser login
+
+2022-11-06 03:10:35 - [TEST_STEP][PASSED] - I fill correct email cat@gmail.com and password cataja: I fill correct email cat@gmail.com and password cataja
+
+2022-11-06 03:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Login/Page_frontend-web/div_AltaShop0' is clicked on
+
+2022-11-06 03:10:36 - [MESSAGE][PASSED] - Text 'olaf@gmail.com' is set on object 'Object Repository/Auth/Login/Page_frontend-web/input_Email_input-18'
+
+2022-11-06 03:10:37 - [MESSAGE][PASSED] - Text 'olafaja' is set on object 'Object Repository/Auth/Login/Page_frontend-web/input_Password_input-21'
+
+2022-11-06 03:10:37 - [MESSAGE][PASSED] - I fill correct email cat@gmail.com and password cataja
+
+2022-11-06 03:10:37 - [TEST_STEP][PASSED] - I click button login: I click button login
+
+2022-11-06 03:10:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Login/Page_frontend-web/btn_lgn' is clicked on
+
+2022-11-06 03:10:37 - [MESSAGE][PASSED] - I click button login
+
+2022-11-06 03:10:37 - [TEST_STEP][PASSED] - I can login: I can login
+
+2022-11-06 03:10:38 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-06 03:10:38 - [MESSAGE][PASSED] - I can login
+
+2022-11-06 03:10:38 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login.feature' was passed
+
+2022-11-06 03:10:38 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/BuyItems.feature"): Feature file: 'Include/features/BuyItems.feature' was passed
+
+2022-11-06 03:10:38 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/BuyItems.feature' and extract report to folder: 'E:\TUGAS\Kampus Merdeka\Clone4\QE_Aida-Paramita\31_Mini Project\praktikum\CI-CD-WEB-UI-\Reports\20221106_031000\Test_All_Feature\20221106_031000/cucumber_report/1667679038597'...
+
+2022-11-06 03:10:38 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User buy items - without login: SCENARIO User buy items - without login
+
+2022-11-06 03:10:38 - [TEST_STEP][PASSED] - I open browser login: I open browser login
+
+2022-11-06 03:10:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-06 03:10:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-06 03:10:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-06 03:10:40 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/auth/login' successfully
+
+2022-11-06 03:10:40 - [MESSAGE][PASSED] - I open browser login
+
+2022-11-06 03:10:40 - [TEST_STEP][PASSED] - I fill correct email <email> and password <password>: I fill correct email <email> and password <password>
+
+2022-11-06 03:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Login/Page_frontend-web/div_AltaShop0' is clicked on
+
+2022-11-06 03:10:41 - [MESSAGE][PASSED] - Text 'olaf@gmail.com' is set on object 'Object Repository/Auth/Login/Page_frontend-web/input_Email_input-18'
+
+2022-11-06 03:10:42 - [MESSAGE][PASSED] - Text 'olafaja' is set on object 'Object Repository/Auth/Login/Page_frontend-web/input_Password_input-21'
+
+2022-11-06 03:10:42 - [MESSAGE][PASSED] - I fill correct email <email> and password <password>
+
+2022-11-06 03:10:42 - [TEST_STEP][PASSED] - I click button login: I click button login
+
+2022-11-06 03:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/Login/Page_frontend-web/btn_lgn' is clicked on
+
+2022-11-06 03:10:43 - [MESSAGE][PASSED] - I click button login
+
+2022-11-06 03:10:43 - [TEST_STEP][PASSED] - I can login: I can login
+
+2022-11-06 03:10:43 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-06 03:10:43 - [MESSAGE][PASSED] - I can login
+
+2022-11-06 03:10:43 - [TEST_STEP][PASSED] - User in homepage: User in homepage
+
+2022-11-06 03:10:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-06 03:10:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-06 03:10:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-06 03:10:46 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-06 03:10:46 - [MESSAGE][PASSED] - User in homepage
+
+2022-11-06 03:10:46 - [TEST_STEP][PASSED] - User select product: User select product
+
+2022-11-06 03:10:46 - [MESSAGE][PASSED] - User select product
+
+2022-11-06 03:10:46 - [TEST_STEP][PASSED] - User click button Beli: User click button Beli
+
+2022-11-06 03:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Buy_Items/Page_frontend-web/button_Beli' is clicked on
+
+2022-11-06 03:10:49 - [MESSAGE][PASSED] - User click button Beli
+
+2022-11-06 03:10:49 - [TEST_STEP][PASSED] - click icon Keranjang to see product: click icon Keranjang to see product
+
+2022-11-06 03:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Buy_Items/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9' is clicked on
+
+2022-11-06 03:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Buy_Items/Page_frontend-web/div_AltaShop1' is clicked on
+
+2022-11-06 03:10:50 - [MESSAGE][PASSED] - click icon Keranjang to see product
+
+2022-11-06 03:10:50 - [MESSAGE][PASSED] - Feature file: 'Include/features/BuyItems.feature' was passed
+
+2022-11-06 03:10:50 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/AddItems.feature"): Feature file: 'Include/features/AddItems.feature' was passed
+
+2022-11-06 03:10:50 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/AddItems.feature' and extract report to folder: 'E:\TUGAS\Kampus Merdeka\Clone4\QE_Aida-Paramita\31_Mini Project\praktikum\CI-CD-WEB-UI-\Reports\20221106_031000\Test_All_Feature\20221106_031000/cucumber_report/1667679050974'...
+
+2022-11-06 03:10:51 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Add items - without login: SCENARIO Add items - without login
+
+2022-11-06 03:10:51 - [TEST_STEP][PASSED] - User in homepage: User in homepage
+
+2022-11-06 03:10:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-06 03:10:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-06 03:10:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-06 03:10:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-06 03:10:55 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-06 03:10:55 - [MESSAGE][PASSED] - User in homepage
+
+2022-11-06 03:10:55 - [TEST_STEP][PASSED] - User select product: User select product
+
+2022-11-06 03:10:55 - [MESSAGE][PASSED] - User select product
+
+2022-11-06 03:10:55 - [TEST_STEP][PASSED] - User click button Beli: User click button Beli
+
+2022-11-06 03:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Buy_Items/Page_frontend-web/button_Beli' is clicked on
+
+2022-11-06 03:11:00 - [MESSAGE][PASSED] - User click button Beli
+
+2022-11-06 03:11:00 - [TEST_STEP][PASSED] - click icon Keranjang to see product: click icon Keranjang to see product
+
+2022-11-06 03:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Buy_Items/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9' is clicked on
+
+2022-11-06 03:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Buy_Items/Page_frontend-web/div_AltaShop1' is clicked on
+
+2022-11-06 03:11:02 - [MESSAGE][PASSED] - click icon Keranjang to see product
+
+2022-11-06 03:11:02 - [TEST_STEP][PASSED] - User can add items: User can add items
+
+2022-11-06 03:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping_Cart/Add_Items/Page_frontend-web/div_AltaShop1' is clicked on
+
+2022-11-06 03:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping_Cart/Add_Items/Page_frontend-web/button_' is clicked on
+
+2022-11-06 03:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping_Cart/Add_Items/Page_frontend-web/button_' is clicked on
+
+2022-11-06 03:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping_Cart/Add_Items/Page_frontend-web/div_AltaShop1' is clicked on
+
+2022-11-06 03:11:04 - [MESSAGE][PASSED] - User can add items
+
+2022-11-06 03:11:04 - [MESSAGE][PASSED] - Feature file: 'Include/features/AddItems.feature' was passed
+
+2022-11-06 03:11:04 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/ReduceItems.feature"): Feature file: 'Include/features/ReduceItems.feature' was passed
+
+2022-11-06 03:11:04 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/ReduceItems.feature' and extract report to folder: 'E:\TUGAS\Kampus Merdeka\Clone4\QE_Aida-Paramita\31_Mini Project\praktikum\CI-CD-WEB-UI-\Reports\20221106_031000\Test_All_Feature\20221106_031000/cucumber_report/1667679064325'...
+
+2022-11-06 03:11:04 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO User reduce items - without login: SCENARIO User reduce items - without login
+
+2022-11-06 03:11:04 - [TEST_STEP][PASSED] - User in homepage: User in homepage
+
+2022-11-06 03:11:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-06 03:11:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-06 03:11:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-06 03:11:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-06 03:11:07 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-06 03:11:07 - [MESSAGE][PASSED] - User in homepage
+
+2022-11-06 03:11:07 - [TEST_STEP][PASSED] - User select product: User select product
+
+2022-11-06 03:11:07 - [MESSAGE][PASSED] - User select product
+
+2022-11-06 03:11:07 - [TEST_STEP][PASSED] - User click button Beli: User click button Beli
+
+2022-11-06 03:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Buy_Items/Page_frontend-web/button_Beli' is clicked on
+
+2022-11-06 03:11:11 - [MESSAGE][PASSED] - User click button Beli
+
+2022-11-06 03:11:11 - [TEST_STEP][PASSED] - click icon Keranjang to see product: click icon Keranjang to see product
+
+2022-11-06 03:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Buy_Items/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9' is clicked on
+
+2022-11-06 03:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Buy_Items/Page_frontend-web/div_AltaShop1' is clicked on
+
+2022-11-06 03:11:13 - [MESSAGE][PASSED] - click icon Keranjang to see product
+
+2022-11-06 03:11:13 - [TEST_STEP][PASSED] - User can reduce items: User can reduce items
+
+2022-11-06 03:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping_Cart/Reduce_Items/Page_frontend-web/button_-' is clicked on
+
+2022-11-06 03:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping_Cart/Reduce_Items/Page_frontend-web/div_AltaShop2' is clicked on
+
+2022-11-06 03:11:15 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-06 03:11:15 - [MESSAGE][PASSED] - User can reduce items
+
+2022-11-06 03:11:15 - [MESSAGE][PASSED] - Feature file: 'Include/features/ReduceItems.feature' was passed
+
+2022-11-06 03:11:15 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/PayTheItems.feature"): Feature file: 'Include/features/PayTheItems.feature' was passed
+
+2022-11-06 03:11:15 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/PayTheItems.feature' and extract report to folder: 'E:\TUGAS\Kampus Merdeka\Clone4\QE_Aida-Paramita\31_Mini Project\praktikum\CI-CD-WEB-UI-\Reports\20221106_031000\Test_All_Feature\20221106_031000/cucumber_report/1667679075302'...
+
+2022-11-06 03:11:15 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Pay the Items - without login: SCENARIO Pay the Items - without login
+
+2022-11-06 03:11:15 - [TEST_STEP][PASSED] - User in homepage: User in homepage
+
+2022-11-06 03:11:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-06 03:11:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-06 03:11:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-06 03:11:17 - [MESSAGE][PASSED] - Navigate to 'https://alta-shop.vercel.app/' successfully
+
+2022-11-06 03:11:17 - [MESSAGE][PASSED] - User in homepage
+
+2022-11-06 03:11:17 - [TEST_STEP][PASSED] - User select product: User select product
+
+2022-11-06 03:11:17 - [MESSAGE][PASSED] - User select product
+
+2022-11-06 03:11:17 - [TEST_STEP][PASSED] - User click button Beli: User click button Beli
+
+2022-11-06 03:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Buy_Items/Page_frontend-web/button_Beli' is clicked on
+
+2022-11-06 03:11:21 - [MESSAGE][PASSED] - User click button Beli
+
+2022-11-06 03:11:21 - [TEST_STEP][PASSED] - click icon Keranjang to see product: click icon Keranjang to see product
+
+2022-11-06 03:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Buy_Items/Page_frontend-web/i_AltaShop_v-icon notranslate fas fa-shoppi_c66ce9' is clicked on
+
+2022-11-06 03:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Buy_Items/Page_frontend-web/div_AltaShop1' is clicked on
+
+2022-11-06 03:11:22 - [MESSAGE][PASSED] - click icon Keranjang to see product
+
+2022-11-06 03:11:22 - [TEST_STEP][PASSED] - User click button Bayar: User click button Bayar
+
+2022-11-06 03:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping_Cart/Pay_The_Items/Page_frontend-web/button_Bayar' is clicked on
+
+2022-11-06 03:11:23 - [MESSAGE][PASSED] - User click button Bayar
+
+2022-11-06 03:11:23 - [TEST_STEP][PASSED] - user go to login page: user go to login page
+
+2022-11-06 03:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping_Cart/Pay_The_Items/Page_frontend-web/div_AltaShop3' is clicked on
+
+2022-11-06 03:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopping_Cart/Pay_The_Items/Page_frontend-web/div_Login' is clicked on
+
+2022-11-06 03:11:25 - [MESSAGE][PASSED] - Browser is closed
+
+2022-11-06 03:11:25 - [MESSAGE][PASSED] - user go to login page
+
+2022-11-06 03:11:25 - [MESSAGE][PASSED] - Feature file: 'Include/features/PayTheItems.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-06 03:10:03 - [TEST_SUITE][PASSED] - Test_All_Feature: Test Cases/TestAll]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.798915">
+<testcase classname="Reduce Items" name="User reduce items - without login" time="10.798915">
+<system-out><![CDATA[When User in homepage.......................................................passed
+And User select product.....................................................passed
+And User click button Beli..................................................passed
+And click icon Keranjang to see product.....................................passed
+Then User can reduce items..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

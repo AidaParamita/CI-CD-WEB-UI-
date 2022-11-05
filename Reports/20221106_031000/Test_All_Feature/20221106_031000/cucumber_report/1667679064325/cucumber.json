@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "User reduce items - without login",
+        "description": "",
+        "id": "reduce-items;user-reduce-items---without-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2762234800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User in homepage",
+            "match": {
+              "location": "HomepageSteps.homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 623900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User select product",
+            "match": {
+              "location": "HomepageSteps.selectProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4782043900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click button Beli",
+            "match": {
+              "location": "HomepageSteps.clickButtonBeli()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1166120000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click icon Keranjang to see product",
+            "match": {
+              "location": "HomepageSteps.clickKeranjang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2077661100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User can reduce items",
+            "match": {
+              "location": "ShoppingCartSteps.reduceItems()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Reduce Items",
+    "description": "",
+    "id": "reduce-items",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-WEB-UI-/Include/features/ReduceItems.feature",
+    "tags": []
+  }
+]

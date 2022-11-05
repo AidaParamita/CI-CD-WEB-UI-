@@ -1,0 +1,159 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "1c98a366-332c-498b-bf3c-461fb7ce0a8a",
+        "line": 11,
+        "name": "User log in into website using existing acount",
+        "description": "",
+        "id": "login;user-log-in-into-website-using-existing-acount;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1913460500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open browser login",
+            "match": {
+              "location": "AuthSteps.openLogin()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "1051df34-05f2-4ed1-ad21-2e289b6f45b1"
+          },
+          {
+            "result": {
+              "duration": 1900825400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I fill correct email olaf@gmail.com and password olafaja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "olaf@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "olafaja",
+                  "offset": 49
+                }
+              ],
+              "location": "AuthSteps.correctLogin(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "619a6f64-5a29-4000-9c49-ee6476869b92"
+          },
+          {
+            "result": {
+              "duration": 370769400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click button login",
+            "match": {
+              "location": "AuthSteps.clicklogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "62be73de-b197-4393-9a89-fe498fbaad77"
+          },
+          {
+            "result": {
+              "duration": 1118252300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can login",
+            "match": {
+              "location": "AuthSteps.sucLogin()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "d39dcd88-921f-4cc3-a77e-efbdea05f8ef"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "b2fd7f7a-05d3-46cc-bc79-9c8c765ce67f",
+        "line": 12,
+        "name": "User log in into website using existing acount",
+        "description": "",
+        "id": "login;user-log-in-into-website-using-existing-acount;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1938730000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open browser login",
+            "match": {
+              "location": "AuthSteps.openLogin()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "15e6e94a-04f2-418f-a24c-6a1af6e80bbd"
+          },
+          {
+            "result": {
+              "duration": 1959761900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I fill correct email cat@gmail.com and password cataja",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cat@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "cataja",
+                  "offset": 48
+                }
+              ],
+              "location": "AuthSteps.correctLogin(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "242846f7-0599-4a96-a7a2-1e0a71494156"
+          },
+          {
+            "result": {
+              "duration": 364201000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click button login",
+            "match": {
+              "location": "AuthSteps.clicklogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "59213842-7ba8-4095-93db-38f4798d4504"
+          },
+          {
+            "result": {
+              "duration": 710482800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can login",
+            "match": {
+              "location": "AuthSteps.sucLogin()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "75520c81-2860-4e07-b365-a11ba0da5db4"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-WEB-UI-/Include/features/Login.feature",
+    "tags": []
+  }
+]

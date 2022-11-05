@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "b5f39f5a-41b0-478b-bfec-e2c84f22482a",
+        "line": 13,
+        "name": "User reduce items - without login",
+        "description": "",
+        "id": "reduce-items;user-reduce-items---without-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2762234800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User in homepage",
+            "match": {
+              "location": "HomepageSteps.homepage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "95649af4-f6cd-4563-9d36-bbbf74df41b3"
+          },
+          {
+            "result": {
+              "duration": 623900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User select product",
+            "match": {
+              "location": "HomepageSteps.selectProduct()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8151048f-d3fc-4260-ba45-8746febcf785"
+          },
+          {
+            "result": {
+              "duration": 4782043900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click button Beli",
+            "match": {
+              "location": "HomepageSteps.clickButtonBeli()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "147ed7dd-09e6-479c-b121-be9d4ff4346a"
+          },
+          {
+            "result": {
+              "duration": 1166120000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click icon Keranjang to see product",
+            "match": {
+              "location": "HomepageSteps.clickKeranjang()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b4459902-9ac0-499e-bf7e-cfc3d6a2be63"
+          },
+          {
+            "result": {
+              "duration": 2077661100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User can reduce items",
+            "match": {
+              "location": "ShoppingCartSteps.reduceItems()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "e6058beb-1ba5-4882-a599-1234b7e8b906"
+          }
+        ]
+      }
+    ],
+    "name": "Reduce Items",
+    "description": "",
+    "id": "reduce-items",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-WEB-UI-/Include/features/ReduceItems.feature",
+    "tags": []
+  }
+]

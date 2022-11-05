@@ -1,0 +1,102 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "f95864e4-aa2b-487c-a2bf-b9a85bcba540",
+        "line": 13,
+        "name": "Pay the Items - without login",
+        "description": "",
+        "id": "pay-the-items;pay-the-items---without-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2260419700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User in homepage",
+            "match": {
+              "location": "HomepageSteps.homepage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "13998147-2a45-4afb-98e7-739b33a6d5fe"
+          },
+          {
+            "result": {
+              "duration": 514800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User select product",
+            "match": {
+              "location": "HomepageSteps.selectProduct()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "fbe1b252-3a60-4ec2-99ce-ec63bb1f6a17"
+          },
+          {
+            "result": {
+              "duration": 3717006000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click button Beli",
+            "match": {
+              "location": "HomepageSteps.clickButtonBeli()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "72e6f8a0-66d5-42ef-a931-1d4ce33a901c"
+          },
+          {
+            "result": {
+              "duration": 1078773400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click icon Keranjang to see product",
+            "match": {
+              "location": "HomepageSteps.clickKeranjang()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "1b6a787f-96a9-4b1a-96e7-39d420c756ef"
+          },
+          {
+            "result": {
+              "duration": 532359800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click button Bayar",
+            "match": {
+              "location": "ShoppingCartSteps.clickButtonBayar()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "6891eaca-497b-4421-b10f-890e8a0e66e2"
+          },
+          {
+            "result": {
+              "duration": 1916313100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user go to login page",
+            "match": {
+              "location": "ShoppingCartSteps.goLoginItems()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "346e784e-b763-4efc-9cc4-f2733f8e5971"
+          }
+        ]
+      }
+    ],
+    "name": "Pay The Items",
+    "description": "",
+    "id": "pay-the-items",
+    "keyword": "Feature",
+    "uri": "E:/TUGAS/Kampus Merdeka/Clone4/QE_Aida-Paramita/31_Mini Project/praktikum/CI-CD-WEB-UI-/Include/features/PayTheItems.feature",
+    "tags": []
+  }
+]

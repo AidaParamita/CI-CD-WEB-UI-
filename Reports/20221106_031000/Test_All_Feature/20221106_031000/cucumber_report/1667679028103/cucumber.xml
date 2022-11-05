@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="10.331182">
+<testcase classname="Login" name="User log in into website using existing acount" time="5.350363">
+<system-out><![CDATA[Given I open browser login..................................................passed
+When I fill correct email olaf@gmail.com and password olafaja...............passed
+And I click button login....................................................passed
+Then I can login............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="User log in into website using existing acount 2" time="4.980819">
+<system-out><![CDATA[Given I open browser login..................................................passed
+When I fill correct email cat@gmail.com and password cataja.................passed
+And I click button login....................................................passed
+Then I can login............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
