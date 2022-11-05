@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_regis_txt</name>
+   <tag></tag>
+   <elementGuidId>2e849694-4338-45b9-9830-9a021f1f5277</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div/div/main/div/div/div/div[2]/form/div[4]/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div/div/main/div/div/div/div[2]/form/div[4]/button/span</value>
+      <webElementGuid>f2096277-18ec-4508-bb7c-899a89c5f518</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
